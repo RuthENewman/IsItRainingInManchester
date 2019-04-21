@@ -70,3 +70,52 @@ body {
   text-align: left;
   margin-left: 0;
 }
+
+@media only screen (max-device-width: 480px) {
+  .temperature {
+    flex-direction: column;
+    line-height: 1.5em;
+    padding: 15px;
+  }
+  .location, .temperature {
+    height: 35vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+.temperature-description {
+  font-size: 20px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 1em;
+  text-align: left;
+  margin-left: 0;
+  }
+  .degree-section h2 {
+    font-size: 30px;
+  }
+  .degree-section span {
+    margin: 10px;
+    font-size: 30px;
+  }
+  .hourly {
+    margin: 0 auto;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    text-align: left;
+    margin-left: 0;
+    font-size: 12px;
+  }
+  .minutely {
+    margin: 0 auto;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    text-align: left;
+    margin-left: 0;
+    font-size: 12px;
+  }
+  h1.locationName {
+    font-size: 30px;
+  }
+}
