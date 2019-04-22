@@ -71,7 +71,7 @@ body {
   margin-left: 0;
 }
 
-@media only screen (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
   .temperature {
     flex-direction: column;
     line-height: 1.5em;
